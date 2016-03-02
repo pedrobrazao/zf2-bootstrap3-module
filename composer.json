@@ -1,0 +1,22 @@
+{
+    "name": "phower/zf2-bootstrap3-module",
+    "description": "Zend Framework 2 module implementing view helpers to support Twitter Bootstrap 3.",
+    "type": "module",
+    "require": {
+        "php": ">=5.5.9",
+        "zendframework/zend-view": "^2.6",
+        "zendframework/zend-form": "^2.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhowerBootstrap3Module\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Ferreira",
+            "email": "pedro@phower.com"
+        }
+    ]
+}
